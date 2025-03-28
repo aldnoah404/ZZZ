@@ -1,0 +1,65 @@
+{
+    "SSLSE": {
+        "construction_info": {
+            "total_params": 14337461,
+            "flops": 29133815616,
+            "inference_time": 0.10552
+        },
+        "evaluation_metrics": {
+            "PA": 0.989256,
+            "Precision": 0.915251,
+            "Recall": 0.927186,
+            "F1": 0.921139,
+            "IoU": 0.854056,
+            "Dice": 0.921139,
+            "train_loss": 0.0,
+            "valid_loss": 0.054471
+        }
+    },
+    "U_NeXt_v1": {
+        "construction_info": {
+            "total_params": 12950817,
+            "flops": 7927787520,
+            "inference_time": 0.044103
+        },
+        "evaluation_metrics": {
+            "PA": 0.98843,
+            "Precision": 0.908823,
+            "Recall": 0.92169,
+            "F1": 0.915138,
+            "IoU": 0.843832,
+            "Dice": 0.915138,
+            "train_loss": 0.0,
+            "valid_loss": 0.057867
+        }
+    },
+    "U_NeXt_v2": {
+        "construction_info": {
+            "total_params": 10223393,
+            "flops": 7571377152,
+            "inference_time": 0.040255
+        },
+        "evaluation_metrics": {
+            "PA": 0.988393,
+            "Precision": 0.908813,
+            "Recall": 0.921064,
+            "F1": 0.914829,
+            "IoU": 0.843328,
+            "Dice": 0.914829,
+            "train_loss": 0.0,
+            "valid_loss": 0.058004
+        }
+    },
+    "SegNet": {
+        "evaluation_metrics": {
+            "PA": 0.989134,
+            "Precision": 0.914969,
+            "Recall": 0.925548,
+            "F1": 0.920193,
+            "IoU": 0.852388,
+            "Dice": 0.920193,
+            "train_loss": 0.0,
+            "valid_loss": 0.054668
+        }
+    }
+}
